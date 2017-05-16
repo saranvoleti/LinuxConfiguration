@@ -45,6 +45,11 @@ To change port from 22 to 2200, execute the following commads:
 6.	sudo su – postgres<br>
 7.	create a database and a user. Grant all priveleges to the user.<br>
 8.	Exit from PSQL.<br>
+
+<h2> Do not allow remote connections< /h2> 
+ PostgreSQL from the Ubuntu repositories does not allow remote connections by default. You can check this at:<br>
+
+sudo nano /etc/postgresql/9.1/main/pg_hba.conf
 <h2>Coning Udacity Item Catalog Project:</h2><br>
 9.	sudo apt-get install git<br>
 10.	cd /var/www<br>
@@ -58,4 +63,5 @@ To Configure and Enable a New Virtual Host and to create a .wsgi file follow the
 
 <h2>References:</h2>
 https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps
 
