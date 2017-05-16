@@ -40,17 +40,21 @@ To change port from 22 to 2200, execute the following commads:
 3.	sudo service apache2 restart
 
 <h2> PostgreSQL</h2>
-sudo apt-get install postgresql
-sudo su – postgres
-create a database and a user. Grant all priveleges to the user.
-Exit from PSQL.
-Coning Udacity Item Catalog Project:
-sudo apt-get install git
-cd /var/www
-sudo mkdir FlaskApp
-cd FlaskApp
-sudo git clone https://github.com/saranvoleti/ItemCatalog_Linux.git
-Rename the project's name to Flaskapp
-Rename item_catalog.py to __init__.py using sudo mv item_catalog.py __init__.py
+1.	sudo apt-get install postgresql
+2.	sudo su – postgres
+3.	create a database and a user. Grant all priveleges to the user.
+4.	Exit from PSQL.
+<h2>Coning Udacity Item Catalog Project:</h2>
+1.	sudo apt-get install git
+2.	cd /var/www
+3.	sudo mkdir FlaskApp
+4.	cd FlaskApp
+5.	sudo git clone https://github.com/saranvoleti/ItemCatalog_Linux.git
+6.	Rename the project's name to Flaskapp
+7.	Rename item_catalog.py to __init__.py using sudo mv item_catalog.py __init__.py
 <h2> To Configure and Enable a New Virtual Host and to create a .wsgi file</h2>
 To Configure and Enable a New Virtual Host and to create a .wsgi file follow the instructions given in https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+
+References:
+https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+
