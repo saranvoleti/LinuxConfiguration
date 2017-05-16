@@ -40,20 +40,20 @@ To change port from 22 to 2200, execute the following commads:
 3.	sudo service apache2 restart
 
 <h2> PostgreSQL</h2>
-5.	sudo apt-get install postgresql
-6.	sudo su – postgres
-7.	create a database and a user. Grant all priveleges to the user.
-8.	Exit from PSQL.
-<h2>Coning Udacity Item Catalog Project:</h2>
-9.	sudo apt-get install git
-10.	cd /var/www
-11.	sudo mkdir FlaskApp
-12.	cd FlaskApp
-13.	sudo git clone https://github.com/saranvoleti/ItemCatalog_Linux.git
-14.	Rename the project's name to Flaskapp
-15.	Rename item_catalog.py to __init__.py using sudo mv item_catalog.py __init__.py
-<h2> To Configure and Enable a New Virtual Host and to create a .wsgi file</h2>
-To Configure and Enable a New Virtual Host and to create a .wsgi file follow the instructions given in https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+5.	sudo apt-get install postgresql<br>
+6.	sudo su – postgres<br>
+7.	create a database and a user. Grant all priveleges to the user.<br>
+8.	Exit from PSQL.<br>
+<h2>Coning Udacity Item Catalog Project:</h2><br>
+9.	sudo apt-get install git<br>
+10.	cd /var/www<br>
+11.	sudo mkdir FlaskApp<br>
+12.	cd FlaskApp<br>
+13.	sudo git clone https://github.com/saranvoleti/ItemCatalog_Linux.git<br>
+14.	Rename the project's name to Flaskapp<br>
+15.	Rename item_catalog.py to __init__.py using sudo mv item_catalog.py __init__.py<br>
+<h2> To Configure and Enable a New Virtual Host and to create a .wsgi file</h2><br>
+To Configure and Enable a New Virtual Host and to create a .wsgi file follow the instructions given in https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps<br><br>
 
 <h2>References:</h2>
 https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
