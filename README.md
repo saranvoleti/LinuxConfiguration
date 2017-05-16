@@ -46,11 +46,11 @@ To change port from 22 to 2200, execute the following commads:
 7.	create a database and a user. Grant all priveleges to the user.<br>
 8.	Exit from PSQL.<br>
 
-<h2> Do not allow remote connections< /h2> 
+<h2> Do not allow remote connections </h2> <br>
  PostgreSQL from the Ubuntu repositories does not allow remote connections by default. You can check this at:<br>
 
-sudo nano /etc/postgresql/9.1/main/pg_hba.conf
-<h2>Coning Udacity Item Catalog Project:</h2><br>
+sudo nano /etc/postgresql/9.1/main/pg_hba.conf<br>
+<h2>Cloning Udacity Item Catalog Project:</h2><br>
 9.	sudo apt-get install git<br>
 10.	cd /var/www<br>
 11.	sudo mkdir FlaskApp<br>
